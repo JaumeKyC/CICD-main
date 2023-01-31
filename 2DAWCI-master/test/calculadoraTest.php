@@ -16,6 +16,7 @@ class calculadoraTest extends TestCase {
        
         $objeto = new Calculadora(100, 22);
         $this->assertEquals(78, $objeto->resta());
+        
 
     }
 
